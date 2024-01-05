@@ -4,10 +4,7 @@ if __name__ == "__main__":
     argc = len(argv) - 1
     sum = 0
 
-    if argc == 0:
-        print("{}".format(sum))
-
-    else:
-        for i in range(1, argc + 1):
+    if num_args > 1:
+        for i in range(1, num_args):
             sum += int(argv[i])
-    print("{}".format(sum))
+            print(sum)
