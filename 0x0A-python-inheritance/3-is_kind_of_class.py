@@ -1,5 +1,11 @@
 #!/usr/bin/python3
-"""returns true if object is an instace of, or if the object is an instace of a class inherited from a specified class; otherwise false"""
+"""checks if object is an instance of a class
+or an inherited class
+"""
+
 
 def is_kind_of_class(obj, a_class):
+    """it returns true if object is an instance of a class
+    or a class that the class in question inherits from
+    """
     return (isinstance(obj, a_class))
