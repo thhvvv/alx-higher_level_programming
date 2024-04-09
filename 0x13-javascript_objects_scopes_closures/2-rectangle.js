@@ -2,7 +2,7 @@
 /* a class caller Rectangle */
 class Rectangle {
 	constructor(w,h) {
-		if (<= 0 || h <= 0 || isNaN(w) || isNaW(h)) {
+		if (w <= 0 || h <= 0 || isNaN(w) || isNaW(h)) {
 			return this;
 		}
 		this.width = w;
